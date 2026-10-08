@@ -1,0 +1,17 @@
+{
+  "name": "ai-study-planner-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI Study Planner powered by Google Gemini",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
